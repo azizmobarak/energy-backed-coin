@@ -1,18 +1,18 @@
-### Energy Backed Coin (EBC)
+# Energy Backed Coin (EBC)
 
 Welcome to the Energy Backed Coin (EBC) project! EBC is a blockchain-based token designed to support green energy initiatives.
 
-# Overview
+### Overview
 
 Energy Backed Coin (EBC) is an ERC20 token on the Ethereum blockchain. It aims to promote and invest in green energy projects by leveraging blockchain technology.
 
-# Features
+### Features
 
 - **ERC20 Compliant:** Fully compatible with ERC20 standards.
 - **Green Energy Focus:** Supports and incentivizes renewable energy projects.
 - **Decentralized:** Operates on the Ethereum blockchain ensuring transparency.
 
-# Usage
+### Usage
 
 ## Interacting with the Contract
 
