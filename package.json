@@ -369,10 +369,11 @@
   },
   "scripts": {
     "test": "mocha",
-    "deploy:sepolia":"npx hardhat ignition deploy ignition/modules/Lock.ts --network sepolia --deployment-id sepolia-deployment",
-    "deploy:mainnet":"npx hardhat ignition deploy ignition/modules/Lock.ts --network mainnet --deployment-id mainnet-deployment",
+    "deploy:sepolia":"npx hardhat ignition deploy ignition/modules/EnergyBackedCoinLocker.ts --network sepolia --deployment-id sepolia-deployment",
+    "deploy:mainnet":"npx hardhat ignition deploy ignition/modules/EnergyBackedCoinLocker.ts --network mainnet --deployment-id mainnet-deployment",
     "privateKey":"npx hardhat vars set",
-    "compile":"npx hardhat compile"
+    "compile":"npx hardhat compile",
+    "verify:sepolia":"npx hardhat verify --network sepolia 0x84F56F473180CfCb2c75dF393F707419b28aB08B"
   },
   "repository": {
     "type": "git",

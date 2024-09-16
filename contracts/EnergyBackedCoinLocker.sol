@@ -1,7 +1,7 @@
 pragma solidity ^0.8.24;
 // Author: @azizmobarak
 // SPDX-License-Identifier: UNLICENSED
-contract Lock {
+contract EnergyBackedCoinLocker {
     uint public unlockTime;
     address payable public owner;
 

@@ -1,3 +1,4 @@
 {
-  "LockModule#Lock": "0xb8B6BDf505DCe835D9981C24048A418e503262a1"
+  "LockModule#Lock": "0xb8B6BDf505DCe835D9981C24048A418e503262a1",
+  "EnergyBackedCoinLockerModule#EnergyBackedCoinLocker": "0x84F56F473180CfCb2c75dF393F707419b28aB08B"
 }
