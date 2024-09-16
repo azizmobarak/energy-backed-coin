@@ -368,7 +368,11 @@
     "yocto-queue": "^0.1.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "deploy:sepolia":"npx hardhat ignition deploy ignition/modules/Lock.ts --network sepolia --deployment-id sepolia-deployment",
+    "deploy:mainnet":"npx hardhat ignition deploy ignition/modules/Lock.ts --network mainnet --deployment-id mainnet-deployment",
+    "privateKey":"npx hardhat vars set",
+    "compile":"npx hardhat compile"
   },
   "repository": {
     "type": "git",
@@ -381,7 +385,7 @@
     "coin"
   ],
   "author": "aziz mobarak",
-  "license": "ISC",
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/azizmobarak/energy-backed-coin/issues"
   },
