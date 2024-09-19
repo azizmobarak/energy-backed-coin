@@ -1,4 +1,8 @@
-# Energy Backed Coin (EBC)
+# Energy Backed Coin (EBC) (Smart contract example)
+
+(the project still in progress and contract code and functions will be updated)
+
+✅ verfied on sepolia etherscan network
 
 Welcome to the Energy Backed Coin (EBC) project! EBC is a blockchain-based token designed to support green energy initiatives.
 
