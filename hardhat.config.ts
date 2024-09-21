@@ -2,7 +2,6 @@ import { HardhatUserConfig, vars } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
 
 const ETHERSCAN_API_KEY = vars.get("ETHERSCAN_API_KEY");
-//73d6e033a889432cb55954f44be91e8f
 const INFURA_API_KEY = vars.get("INFURA_API_KEY");
 const SEPOLIA_PRIVATE_KEY = vars.get("SEPOLIA_PRIVATE_KEY");
 const MAINNET_PRIVATE_KEY = vars.get("MAINNET_PRIVATE_KEY");
